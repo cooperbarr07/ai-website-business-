@@ -1,0 +1,15 @@
+{
+  "name": "ai-website-business",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Agents that find brand-new Colorado businesses, build them a preview website, and draft the pitch.",
+  "scripts": {
+    "dev": "PIPELINE_INLINE=1 LOCAL_STORE=1 node test/server.mjs",
+    "test": "LOCAL_STORE=1 node test/run.mjs"
+  },
+  "dependencies": {
+    "@netlify/blobs": ">=8.1.0"
+  },
+  "engines": { "node": ">=20" }
+}
